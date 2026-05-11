@@ -14,15 +14,8 @@ public class Main {
         System.out.println(celular1.conectividad);
        */
        Celular celular2 = new Celular("Apple","iphone15","128GB","6GB","5G");
-        System.out.println(celular1.getMarca());
-        System.out.println(celular1.getModelo());
-        System.out.println(celular1.getMemoria());
-        System.out.println(celular1.getRam());
-        System.out.println(celular1.getConectividad());
+        System.out.println(celular1.mostrarInformacion());
 
-        celular1.setModelo("Redmi note 15");
-        System.out.println("\nNuevo Modelo");
-        System.out.println(celular1.getModelo());
 
 
     }

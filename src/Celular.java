@@ -39,10 +39,26 @@ public class Celular {
     public void setMarca(String marca){
         this.marca = marca;
     }
-    public void setModelo(String modelo){
+    public void setModelo(String modelo) {
         this.modelo = modelo;
-
-    public void setMemoria(String memoria)
+    }
+    public void setMemoria(String memoria){
         this.memoria = memoria;
+    }
+    public void setRam(String ram) {
+        this.ram = ram;
+    }
+    public void setConectividad(String conectividad) {
+        this.conectividad = conectividad;
+    }
+
+    public String mostrarInformacion(){
+        return  "marca:" + this.marca +
+                 "\nModelo:"+ this.modelo +
+                "\nMemoria"+ this.memoria +
+                "\nRam"+ this.ram +
+                "\nConectividad:"+ this.conectividad;
+
+
     }
 }
